@@ -1,0 +1,91 @@
+type: ItemTurret
+name: Purifier
+description: Highly modified and well-proven anti-aircraft turret. Fires a hail of shrapnel bullets.
+details: Remember, fellow fighters, scrap metal is bad ammo for this turret.
+
+health: 1000
+size: 3
+requirements: [ 
+	
+	] 
+category: turret
+
+range: 210
+rotateSpeed: 15
+
+reloadTime: 14
+
+inaccuracy: 20
+burstSpacing: 6
+shots: 5
+spread: 4
+recoilAmount: 2
+cooldown: 10
+shootCone: 40
+targetAir: true
+targetGround: false
+
+ammoTypes: {
+		scrap: {
+					type: FlakBulletType
+					lifetime: 42
+					speed: 5
+					damage: 5
+					shootEffect: shootSmall
+					smokeEffect: shootSmallSmoke
+					fragBullets: 5
+					fragBullet: {
+						type: BasicBulletType
+						damage: 1
+					}
+					splashDamage: 2
+					splashDamageRadius: 34
+		}
+		lead: {
+					type: FlakBulletType
+					lifetime: 25
+					speed: 10
+					damage: 25
+					shootEffect: shootBig
+					smokeEffect: shootBigSmoke
+					fragBullets: 5
+					fragBullet: {
+						type: BasicBulletType
+						damage: 20
+					}
+					splashDamage: 10
+					splashDamageRadius: 15
+		}
+		metaglass: {
+					type: FlakBulletType
+					lifetime: 25
+					speed: 10
+					damage: 40
+					shootEffect: shootBig
+					smokeEffect: shootBigSmoke
+					fragBullets: 5
+					fragBullet: {
+						type: BasicBulletType
+						damage: 15
+					}
+					splashDamage: 20
+					splashDamageRadius: 34
+		}
+		plastanium: {
+					type: FlakBulletType
+					lifetime: 25
+					speed: 10
+					damage: 110
+					shootEffect: shootBig
+					smokeEffect: ShootBigSmoke
+					fragBullets: 5
+					fragBullet: {
+						type: BasicBulletType
+						damage: 50
+					}
+					splashDamage: 35
+					splashDamageRadius: 40
+		}
+}
+
+research: scatter

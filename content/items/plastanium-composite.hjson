@@ -1,0 +1,11 @@
+name: Plastanium composite
+description: Very refractory material. It is widely used in defence structures. Slightly radioactive.
+details: It was first discovered in large numbers in the ruins of Lungard.
+
+color: "#D6D993"
+explosiveness: 0
+flammability: 0
+radioactivity: 0.35
+cost: 1.3
+alwaysUnlocked: false
+research: plastanium

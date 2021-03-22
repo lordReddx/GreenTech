@@ -1,0 +1,24 @@
+type: Wall
+name: Plastanium composite wall
+description: A new generation protective structure. Protects buildings from enemy shells. Absorbs lasers and electrical discharges. Blocks automatic node connections. It has a great chance to release an electric discharge on impact. Slowly regenerates itself.
+details: It is not known where the technology of self-healing walls came from. The only clue is the strange markings on the charred blueprints.
+
+update: true
+health: 6500
+size: 2
+requirements: [
+	plastanium-composite/24
+	thorium/8
+]
+category: defense
+
+lightningChance: 0.66
+lightningDamage: 160
+lightningLength: 50
+lightningColor: "#"
+lightningSound: spark
+
+insulated: true
+absorbLasers: true
+
+research: pc-wall-s

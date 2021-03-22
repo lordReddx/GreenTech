@@ -1,0 +1,40 @@
+type: GenericSmelter
+name: High-temperature foundry
+description: Melts titanium, plastanium, and thorium into a plastanium composite. Optionally, uses slag to speed up the melting process.
+details: Not suitable for melting surge alloy. Don't even try.
+
+consumes: {
+	power: 7
+	items: {
+		items: [
+			titanium/3
+			plastanium/4
+			thorium/3
+			pyratite/2
+			]
+		liquid: { 
+		  liquid: slag
+		  amount: 5
+		  optional: true
+		  booster: true
+		 }
+	}
+}
+health: 570
+size: 3
+requirements: [
+  lead/680
+  metaglass/200
+  titanium/640
+  silicon/600
+  plastanium/520
+  ]
+category: crafting
+
+outputItem: plastanium-composite
+craftTime: 150
+craftEffect: pulverizeMedium
+
+flameColor: "#FFD4B8"
+
+research: oil-extractor

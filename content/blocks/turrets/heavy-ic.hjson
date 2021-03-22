@@ -1,0 +1,57 @@
+localizedName: Heavy ion cannon
+description: The ship's weapons were removed from the mid-star stormtrooper and modified to work as a ground turret.
+details: The echoes of the great war are visible even now, after so many years.
+
+consumes: {
+	power: 17
+	items: {
+		items: [
+			plastanium-composite/1
+			]
+	}
+} 
+health: 4000
+size: 4
+requirements: [
+	copper/1200
+	lead/1300
+	graphite/800
+	thorium/700
+	silicon/1000
+	plastanium/700
+	surge-alloy/510
+	plastanium-composite/200
+]
+category: turret
+
+range: 560
+rotateSpeed: 3.2
+
+reloadTime: 420
+
+shootEffect: greenLaserCharge
+smokeEffect: greenLaserCharge
+shootSound: laserBlast
+chargeSound: laserCharge
+inaccuracy: 4
+cooldown: 300
+coolantUsage: 2.1
+shootShake: 2
+targetAir: true
+targetGround: true
+unitSort: maxHealth
+
+ammoTypes: {
+    plastanium-composite: {
+              type: LaserBulletType
+              damage: 2500
+              length: 560
+              width: 80
+              frontColor: "#EDC2B7"
+              backColor: "#ED7455"
+             	status: melting
+             	statusDuration: 120
+    }
+}
+
+research: meltdown
