@@ -15,7 +15,7 @@ category: defense
 lightningChance: 0.66
 lightningDamage: 160
 lightningLength: 50
-lightningColor: "#"
+lightningColor: "#D6D965"
 lightningSound: spark
 
 insulated: true

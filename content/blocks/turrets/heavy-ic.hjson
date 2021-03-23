@@ -39,7 +39,7 @@ coolantUsage: 2.1
 shootShake: 2
 targetAir: true
 targetGround: true
-unitSort: maxHealth
+//unitSort: maxHealth
 
 ammoTypes: {
     plastanium-composite: {
