@@ -46,7 +46,7 @@ ammoTypes: {
 					speed: 10
 					damage: 25
 					shootEffect: shootBig
-					smokeEffect: shootBigSmoke
+					smokeEffect: shootBigSmoke2
 					fragBullets: 5
 					fragBullet: {
 						type: BasicBulletType
@@ -61,7 +61,7 @@ ammoTypes: {
 					speed: 10
 					damage: 40
 					shootEffect: shootBig
-					smokeEffect: shootBigSmoke
+					smokeEffect: shootBigSmoke2
 					fragBullets: 5
 					fragBullet: {
 						type: BasicBulletType
@@ -76,7 +76,7 @@ ammoTypes: {
 					speed: 10
 					damage: 110
 					shootEffect: shootBig
-					smokeEffect: ShootBigSmoke
+					smokeEffect: shootBigSmoke2
 					fragBullets: 5
 					fragBullet: {
 						type: BasicBulletType
