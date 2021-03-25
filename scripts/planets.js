@@ -21,7 +21,7 @@ var arry = [
     });
     minoGenerator.arr = arrrs;
 
-const mino = new Planet("mino", Planets.serpulo, 1, 0.3);
+const mino = new JavaAdapter(Planet, {}, "mino", Planets.serpulo, 1, 0.3);
 
     mino.generator = minoGenerator;
     mino.mesh = new HexMesh(mino, 5);
