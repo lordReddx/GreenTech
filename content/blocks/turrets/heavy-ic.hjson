@@ -30,7 +30,6 @@ rotateSpeed: 3.2
 reloadTime: 420
 
 shootEffect: greenLaserCharge
-chargeEffect: greenLaserCharge
 shootSound: laserblast
 chargeSound: lasercharge
 inaccuracy: 4
@@ -55,4 +54,4 @@ ammoTypes: {
     }
 }
 
-research: meltdown
+research: foreshadow
