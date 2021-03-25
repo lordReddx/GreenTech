@@ -19,7 +19,7 @@ var arry = [
             this.super$getBlock(p);
         }
     });
-    minoGenerator.arr = arrrs;
+    minoGenerator.arr = arry;
 
 const mino = new JavaAdapter(Planet, {}, "mino", Planets.serpulo, 1, 0.3);
 
