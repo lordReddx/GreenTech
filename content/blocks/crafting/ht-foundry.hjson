@@ -31,7 +31,7 @@ requirements: [
   ]
 category: crafting
 
-outputItem: plastanium-composite/
+outputItem: plastanium-composite/1
 craftTime: 150
 craftEffect: pulverizeMedium
 

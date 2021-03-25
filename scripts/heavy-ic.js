@@ -1,4 +1,22 @@
+const effectS = require("effects");
+
+const pcBullet = extend(LaserBulletType, {});
+  pcBullet.damage = 2500;
+  pcBullet.length = 560;
+  pcBullet.width = 80;
+  pcBullet.frontColor = Color.valueOf("EDC2B7");
+  pcBullet.backColor = Color.valueOf("ED7455");
+  pcBullet.status = effectS.overShocked;
+  pcBullet.statusDuration = 240;
+  statusChance = 0.1;
+
 const heavyIC = extendContent(ItemTurret, "heavy-ic", {
+  init(){
+		heavyIC.ammo(
+			Vars.content.getByName(ContentType.item, "gt-plastanium-composite"), pcBullet
+		);
+		this.super$init();
+	}, 
   load() {
     this.super$load();
 
