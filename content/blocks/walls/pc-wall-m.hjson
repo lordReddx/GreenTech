@@ -1,4 +1,3 @@
-type: Wall
 name: Plastanium composite wall
 description: A new generation protective structure. Protects buildings from enemy shells. Absorbs lasers and electrical discharges. Blocks automatic node connections. It has a great chance to release an electric discharge on impact. Slowly regenerates itself.
 details: It is not known where the technology of self-healing walls came from. The only clue is the strange markings on the charred blueprints.

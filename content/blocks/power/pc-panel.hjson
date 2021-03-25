@@ -1,7 +1,6 @@
-type: SolarGenerator
 name: Plastanium composite solar panel
 description: Provides a significant amount of energy from the sun. Works as a solar magnet, standing close to the solar concentrator.
-details: This is the beginning of the green energy path.
+details: This is the beginning of the green energy path. 
 
 health: 120
 size: 1
@@ -11,6 +10,7 @@ requirements: [
   silicon/20
   plastanium-composite/5
   ]
+  category: power
 
 powerProduction: 1.5
 

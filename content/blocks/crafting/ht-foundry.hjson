@@ -12,13 +12,13 @@ consumes: {
 			thorium/3
 			pyratite/2
 			]
-		liquid: { 
-		  liquid: slag
-		  amount: 5
-		  optional: true
-		  booster: true
-		 }
 	}
+	liquid: { 
+			  liquid: slag
+			  amount: 5
+			  optional: true
+			  booster: true
+			 }
 }
 health: 570
 size: 3
@@ -31,7 +31,7 @@ requirements: [
   ]
 category: crafting
 
-outputItem: plastanium-composite/1
+outputItem: plastanium-composite/
 craftTime: 150
 craftEffect: pulverizeMedium
 

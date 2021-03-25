@@ -1,8 +1,3 @@
-const purifier = extendContent(ItemTurret, "purifier", {
-  draw(){
-    Draw.rect(Core.atlas.find("gt-purifier-liquid"), this.x,this.y);
-}});
-
 const heavyIC = extendContent(ItemTurret, "heavy-ic", {
   load() {
     this.super$load();
@@ -19,7 +14,7 @@ const heavyIC = extendContent(ItemTurret, "heavy-ic", {
     tr2.trns(entity.rotation, -entity.recoil);
 
     Draw.rect(this.region, tile.drawx() + tr2.x, tile.drawy() + tr2.y, entity.rotation - 90);
-    Draw.color(Color.valueOf("DD3636").shiftSaturation(Time.time() * 2.0));
+    Draw.color(Color.valueOf("DD3636").shiftHue(Time.time() * 2.0));
     Draw.rect(this.blinkRegion, tile.drawx() + tr2.x, tile.drawy() + tr2.y, entity.rotation - 90);
     Draw.color();
   }

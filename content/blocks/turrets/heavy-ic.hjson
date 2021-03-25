@@ -30,9 +30,9 @@ rotateSpeed: 3.2
 reloadTime: 420
 
 shootEffect: greenLaserCharge
-smokeEffect: greenLaserCharge
-shootSound: laserBlast
-chargeSound: laserCharge
+chargeEffect: greenLaserCharge
+shootSound: laserblast
+chargeSound: lasercharge
 inaccuracy: 4
 cooldown: 300
 coolantUsage: 2.1
@@ -49,8 +49,9 @@ ammoTypes: {
               width: 80
               frontColor: "#EDC2B7"
               backColor: "#ED7455"
-             	status: melting
-             	statusDuration: 120
+             	status: overShocked
+             	statusDuration: 240
+             	statusChance: 0.1
     }
 }
 

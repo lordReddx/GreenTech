@@ -1,6 +1,6 @@
 type: SolarGenerator
 name: Plastanium composite large solar panel
-description: Provides a significant amount of energy from the sun. Works as a solar magnet, standing close to the solar concentrator. A more efficient version of a plastanium panel.
+description: Provides a significant amount of energy from the sun. A more efficient version of a plastanium panel. Can't work as a solar magnet.
 details: This is the beginning of the green energy path.
 
 health: 1080
@@ -12,6 +12,7 @@ requirements: [
   phase-fabric/35
   plastanium-composite/40
   ]
+  category: power
 
 powerProduction: 19.5
 
