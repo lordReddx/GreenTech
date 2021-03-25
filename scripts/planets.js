@@ -37,6 +37,9 @@ const mino = new JavaAdapter(Planet, {}, "mino", Planets.serpulo, 1, 0.3);
     mino.atmosphereRadOut = 0.3;
     mino.alwaysUnlocked = true;
     mino.localizedName = "Mino";
+    
+    for(var i = 0; i < 5; i++){
+        var h = new SectorPreset("sector" + i, mino, i)};
 
 const ekzo = new JavaAdapter(Planet, {}, "ekzo", Planets.sun, 0, 1.2);
 
