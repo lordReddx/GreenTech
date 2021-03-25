@@ -5,8 +5,8 @@
   //walls
   require("pc-walls");
   //power
-  require("pc-panel");
-  require("sunhub");
+  //require("pc-panel");
+  //require("sunhub");
   
 //campaign
   require("planets");

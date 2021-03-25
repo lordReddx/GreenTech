@@ -15,7 +15,7 @@ consumes: {
 	}
 	liquid: { 
 			  liquid: slag
-			  amount: 5
+			  amount: 0.2
 			  optional: true
 			  booster: true
 			 }

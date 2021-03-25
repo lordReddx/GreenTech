@@ -1,4 +1,4 @@
-const effectS = require("effects");
+//const effectS = require("effects");
 
 const pcBullet = extend(LaserBulletType, {});
   pcBullet.damage = 2500;
@@ -6,7 +6,7 @@ const pcBullet = extend(LaserBulletType, {});
   pcBullet.width = 80;
   pcBullet.frontColor = Color.valueOf("EDC2B7");
   pcBullet.backColor = Color.valueOf("ED7455");
-  pcBullet.status = effectS.overShocked;
+  pcBullet.status = unmoving;
   pcBullet.statusDuration = 240;
   statusChance = 0.1;
 
