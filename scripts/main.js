@@ -3,7 +3,9 @@
   require("purifier");
   require("heavy-ic");
   //walls
-  require("pc-walls");
+  require("pc-wall-s");
+  require("pc-wall-m");
+  require("pc-wall-b");
   //power
   //require("pc-panel");
   //require("sunhub");

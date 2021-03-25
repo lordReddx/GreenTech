@@ -49,7 +49,7 @@ ammoTypes: {
               width: 80
               frontColor: "#EDC2B7"
               backColor: "#ED7455"
-             	status: overShocked
+             	status: unmoving
              	statusDuration: 240
              	statusChance: 0.1
     }

@@ -12,7 +12,7 @@ const mino = new JavaAdapter(Planet, {}, "mino", Planets.serpulo, 1, 0.3);
     mino.atmosphereColor = Liquids.cryofluid.color;
     mino.atmosphereRadIn = 0.1;
     mino.atmosphereRadOut = 0.3;
-    mino.alwaysUnlocked = false;
+    mino.alwaysUnlocked = true;
     mino.localizedName = "Mino";
 
 const ekzo = new JavaAdapter(Planet, {}, "ekzo", Planets.sun, 0, 1.2);
