@@ -1,31 +1,8 @@
-var arry = [
-        [Blocks.water, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.sand, Blocks.sand, Blocks.sand, Blocks.sand, Blocks.grass, Blocks.stone, Blocks.stone],
-                [Blocks.water, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.sand, Blocks.sand, Blocks.sand, Blocks.sand, Blocks.sand, Blocks.grass, Blocks.stone, Blocks.stone, Blocks.stone],
-                [Blocks.water, Blocks.grass, Blocks.grass, Blocks.sand, Blocks.salt, Blocks.sand, Blocks.sand, Blocks.sand, Blocks.sand, Blocks.grass, Blocks.stone, Blocks.stone, Blocks.stone],
-                [Blocks.water, Blocks.sandWater, Blocks.sand, Blocks.salt, Blocks.salt, Blocks.salt, Blocks.sand, Blocks.stone, Blocks.stone, Blocks.stone, Blocks.snow, Blocks.iceSnow, Blocks.ice],
-                [Blocks.deepwater, Blocks.water, Blocks.sandWater, Blocks.sand, Blocks.salt, Blocks.sand, Blocks.sand, Blocks.grass, Blocks.snow, Blocks.snow, Blocks.snow, Blocks.snow, Blocks.ice],
-                [Blocks.deepwater, Blocks.water, Blocks.sandWater, Blocks.sand, Blocks.sand, Blocks.sand, Blocks.grass, Blocks.iceSnow, Blocks.snow, Blocks.snow, Blocks.ice, Blocks.snow, Blocks.ice],
-                [Blocks.deepwater, Blocks.sandWater, Blocks.sand, Blocks.sand, Blocks.grass, Blocks.grass, Blocks.snow, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.ice, Blocks.snow, Blocks.ice],
-                [Blocks.water, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.hotrock, Blocks.grass, Blocks.ice, Blocks.snow, Blocks.ice, Blocks.ice],
-                [Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.dirt, Blocks.snow, Blocks.grass, Blocks.grass, Blocks.ice, Blocks.snow, Blocks.ice, Blocks.ice],
-                [Blocks.grass, Blocks.grass, Blocks.grass, Blocks.dirt, Blocks.ice, Blocks.ice, Blocks.snow, Blocks.snow, Blocks.snow, Blocks.snow, Blocks.ice, Blocks.ice, Blocks.ice],
-                [Blocks.water, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.ice, Blocks.ice, Blocks.snow, Blocks.snow, Blocks.ice, Blocks.ice, Blocks.ice, Blocks.ice],
-                [Blocks.grass, Blocks.grass, Blocks.grass, Blocks.dirt, Blocks.grass, Blocks.dirt, Blocks.iceSnow, Blocks.snow, Blocks.ice, Blocks.ice, Blocks.ice, Blocks.ice, Blocks.ice],
-                [Blocks.grass, Blocks.grass, Blocks.snow, Blocks.ice, Blocks.iceSnow, Blocks.snow, Blocks.snow, Blocks.snow, Blocks.ice, Blocks.ice, Blocks.ice, Blocks.ice, Blocks.ice]
-    ];
-    const minoGenerator = extend(SerpuloPlanetGenerator, {
-        getBlock(p){
-            this.arr = arry;
-            this.super$getBlock(p);
-        }
-    });
-    minoGenerator.arr = arry;
-
-const mino = new JavaAdapter(Planet, {}, "mino", Planets.serpulo, 1, 0.3);
-
-    mino.generator = minoGenerator;
+  Events.on(ClientLoadEvent, () => {
+    const mino = new Planet("mino", Planets.sun, 1, 3);
+    mino.generator = new SerpuloPlanetGenerator();
     mino.mesh = new HexMesh(mino, 5);
-    mino.orbitRadius = 5;
+    mino.orbitRadius = 7;
     mino.orbitTime = 1.5 * 30;
     mino.rotateTime = 15;
     mino.bloom = true;
@@ -37,13 +14,42 @@ const mino = new JavaAdapter(Planet, {}, "mino", Planets.serpulo, 1, 0.3);
     mino.atmosphereRadOut = 0.3;
     mino.alwaysUnlocked = true;
     mino.localizedName = "Mino";
+
     
-    for(var i = 0; i < 5; i++){
-        var h = new SectorPreset("sector" + i, mino, i)};
+const plains = new SectorPreset("sector1", mino, 1);
+plains.captureWave = 45;
+plains.localizedName = "Plains";
+plains.difficulty = 8;
+plains.alwaysUnlocked = false;
+
+const oldRefinery = new SectorPreset("sector2", mino, 2);
+oldRefinery.localizedName = "Old refinery";
+oldRefinery.difficulty = 8;
+oldRefinery.alwaysUnlocked = false;
+
+const frozenMountains = new SectorPreset("sector3", mino, 3);
+frozenMountains.localizedName = "Frozen mountains";
+frozenMountains.difficulty = 5;
+frozenMountains.alwaysUnlocked = true;
+
+const spaceshipWorkshop = new SectorPreset("sector4", mino, 4);
+spaceshipWorkshop.captureWave = 30;
+spaceshipWorkshop.localizedName = "Spaceship workshop";
+spaceshipWorkshop.difficulty = 5;
+spaceshipWorkshop.alwaysUnlocked = false;
+
+const spaceAirport = new SectorPreset("sector5", mino, 5);
+spaceAirport.localizedName = "Space airport";
+spaceAirport.difficulty = 9;
+spaceAirport.alwaysUnlocked = false;
+});
+
+/*const mudCauldron = new SectorPreset("mud-cauldron", mino, 6);
+mudCauldron.localizedName = "Mud cauldron";*/
 
 const ekzo = new JavaAdapter(Planet, {}, "ekzo", Planets.sun, 0, 1.2);
 
-  ekzo.orbitRadius = 35;
+  ekzo.orbitRadius = 10;
   ekzo.localizedName = "Ekzo";
   ekzo.accessible = false;
   ekzo.hasAtmosphere = true;
