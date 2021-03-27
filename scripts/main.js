@@ -1,9 +1,6 @@
 //blocks
   //crafting
   require("ht-foundry");
-  //turrets
-  require("purifier");
-  require("heavy-ic");
   //walls
   require("pc-wall-s");
   require("pc-wall-m");
@@ -12,6 +9,4 @@
   
 //campaign
   require("planets");
-  //require("sectorPresets");
-  //require("techtree");
 //misc
