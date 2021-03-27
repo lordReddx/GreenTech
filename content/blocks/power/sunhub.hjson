@@ -33,9 +33,9 @@ powerProduction: 10
 itemDuration: 300
 generateEffect: generatespark
 explosionRadius: 800
-explosionDamage: 100
+explosionDamage: 10
 plasma1: "#FFC266"
-plasma2: "#FFC266"
+plasma2: "#FFC266" 
 plasma3: "#FFC266"
 plasma4: "#FFC266"
 

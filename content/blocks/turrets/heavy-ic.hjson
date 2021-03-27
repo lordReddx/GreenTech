@@ -28,7 +28,7 @@ category: turret
 range: 560
 rotateSpeed: 3.2
 
-reloadTime: 420
+reloadTime: 300
 
 shootEffect: greenLaserCharge
 shootSound: laserblast
