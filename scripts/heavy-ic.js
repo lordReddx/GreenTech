@@ -1,18 +1,3 @@
-const sHitEffect = newEffect(12, e => {
-	Draw.blend(Blending.additive);
-	Draw.color(Color.valueOf("ff0000ff").shiftSaturation(Time.time() * 3.0));
-	Lines.stroke(e.fout() * 1.5);
-	
-	const hl = new Floatc2({get: function(x, y){
-		const ang = Mathf.angle(x, y);
-		Lines.lineAngle(e.x + x, e.y + y, ang, e.fout() * 8 + 1.5);
-	}});
-	
-	Angles.randLenVectors(e.id, 4, e.finpow() * 30.0, e.rotation, 70.0, hl);
-	Draw.blend();
-	Draw.reset();
-});
-
 //const effectS = require("effects");
 
 /*const pcBullet = extend(LaserBulletType, {});

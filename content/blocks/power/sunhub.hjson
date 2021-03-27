@@ -28,6 +28,7 @@ requirements: [
   ]
 category: power
 
+itemCapacity: 30
 powerProduction: 100
 itemDuration: 90
 generateEffect: generatespark

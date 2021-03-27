@@ -3,6 +3,9 @@ name: Plastanium battery
 description: A high-capacity battery, which is caused by the electrical permeability of the plastanium plates.
 details: Nothing to add.
 
+consumes: {
+  powerBuffered: 70000
+  }
 health: 510
 size: 3
 requirements: [
@@ -11,7 +14,6 @@ requirements: [
   silicon/35
   pc-plate/5
   ]
-
-powerBuffered: 70000
+category: power
 
 research: battery-large

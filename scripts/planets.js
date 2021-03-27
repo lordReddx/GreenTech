@@ -43,14 +43,3 @@ spaceAirport.localizedName = "Space airport";
 spaceAirport.difficulty = 9;
 spaceAirport.alwaysUnlocked = false;
 });
-
-/*const mudCauldron = new SectorPreset("mud-cauldron", mino, 6);
-mudCauldron.localizedName = "Mud cauldron";*/
-
-const ekzo = new JavaAdapter(Planet, {}, "ekzo", Planets.sun, 0, 1.2);
-
-  ekzo.orbitRadius = 10;
-  ekzo.localizedName = "Ekzo";
-  ekzo.accessible = false;
-  ekzo.hasAtmosphere = true;
-  ekzo.meshLoader = () => new SunMesh(ekzo, 4, 5, 0.3, 1.7, 1.2, 1, 1.5, Color.valueOf("000000"), Color.valueOf("ff9900"), Color.valueOf("323332"), Color.valueOf("939393"), Color.valueOf("837881"));
