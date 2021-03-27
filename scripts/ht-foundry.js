@@ -18,7 +18,7 @@ const multi = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafte
             power: 2.1
           },
           output: {
-            items: ["gt-plastanium-plate/2"]
+            items: ["gt-pc-plate/2"]
           },
           craftTime: 120
         },

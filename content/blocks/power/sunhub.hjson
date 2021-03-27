@@ -10,9 +10,9 @@ consumes: {
 			phase-fabric/20
 			]
 	}
-	liquid: [
-	  water/0.6
-  	]
+	liquid: {
+	  liquid: water
+	  amount: 0.6
 }
 health: 700
 size: 4

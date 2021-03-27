@@ -9,7 +9,7 @@ requirements: [
   lead/50
   titanium/30
   silicon/35
-  plastanium-plate/5
+  pc-plate/5
   ]
 
 powerBuffered: 70000
