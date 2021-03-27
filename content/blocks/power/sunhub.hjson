@@ -1,0 +1,29 @@
+type: ItemLiquidGenerator
+name: Sun hub
+description: Releases radioactive energy from the phase tissue when exposed to sunlight. It is not very effective in a solar eclipse and vice versa in a solar flare.
+details: A very promising development, but it is not known where it comes from.
+
+consumes: {
+  power: 15
+  items: {
+		items: [
+			phase-fabric/20
+			]
+	}
+	liquid: [
+	  water/0.6
+  	]
+}
+health: 700
+size: 4
+requirements: [
+  
+  ]
+category: power
+
+powerProduction: 100
+itemDuration: 90
+generateEffect: generatespark
+sync: false
+
+research: impact-reactor

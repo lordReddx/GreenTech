@@ -1,0 +1,17 @@
+type: Battery
+name: Plastanium battery
+description: A high-capacity battery, which is caused by the electrical permeability of the plastanium plates.
+details: Nothing to add.
+
+health: 510
+size: 3
+requirements: [
+  lead/50
+  titanium/30
+  silicon/35
+  plastanium-plate/5
+  ]
+
+powerBuffered: 70000
+
+research: battery-large

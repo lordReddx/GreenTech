@@ -1,4 +1,6 @@
 //blocks
+  //crafting
+  require("ht-foundry");
   //turrets
   require("purifier");
   require("heavy-ic");

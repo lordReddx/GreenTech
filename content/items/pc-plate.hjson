@@ -1,0 +1,11 @@
+name: Plastanium plate
+description: It is used in the construction of high-capacity batteries.
+details: Just please don't try to make walls out of it.
+
+color: "#E9EDA1"
+explosiveness: 0
+flammability: 0.1
+radioactivity: 0.6
+cost: 1.1
+alwaysUnlocked: false
+research: plastanium

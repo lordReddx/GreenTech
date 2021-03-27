@@ -1,4 +1,8 @@
 const purifier = extendContent(ItemTurret, "purifier", {
-  draw(){
-    Draw.rect(Core.atlas.find("gt-purifier-liquid"), this.x,this.y);
-}});
+  load() {
+    this.super$load();
+
+    this.region = Core.atlas.find(this.name);
+    this.liquidRegion = Core.atlas.find(this.name + "-liquid");
+  }
+});
