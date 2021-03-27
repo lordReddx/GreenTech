@@ -1,4 +1,5 @@
-localizedName: Heavy ion cannon
+type: ItemTurret
+name: Heavy ion cannon
 description: The ship's weapons were removed from the mid-star stormtrooper and modified to work as a ground turret.
 details: The echoes of the great war are visible even now, after so many years.
 
