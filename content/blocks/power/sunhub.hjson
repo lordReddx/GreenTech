@@ -29,11 +29,14 @@ requirements: [
 category: power
 
 itemCapacity: 40
-powerProduction: 120
+powerProduction: 10
 itemDuration: 300
 generateEffect: generatespark
 explosionRadius: 800
 explosionDamage: 100
-plasma1
+plasma1: "#FFC266"
+plasma2: "#FFC266"
+plasma3: "#FFC266"
+plasma4: "#FFC266"
 
 research: impact-reactor
