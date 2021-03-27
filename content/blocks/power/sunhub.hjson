@@ -29,11 +29,11 @@ requirements: [
 category: power
 
 itemCapacity: 40
-powerProduction: 120
+powerProduction: 220
 itemDuration: 300
 generateEffect: generatespark
 explosionRadius: 800
-explosionDamage: 10
+explosionDamage: 15
 plasma1: "#FFC266"
 plasma2: "#FFC266" 
 plasma3: "#FFC266"
