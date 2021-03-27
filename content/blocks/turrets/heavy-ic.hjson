@@ -30,7 +30,8 @@ rotateSpeed: 3.2
 
 reloadTime: 300
 
-shootEffect: greenLaserCharge
+chargeEffect: lancerLaserChargeBegin
+hitEffect: hitLaserBlast
 shootSound: laserblast
 chargeSound: lasercharge
 inaccuracy: 4

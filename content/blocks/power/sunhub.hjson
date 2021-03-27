@@ -29,7 +29,7 @@ requirements: [
 category: power
 
 itemCapacity: 40
-powerProduction: 10
+powerProduction: 120
 itemDuration: 300
 generateEffect: generatespark
 explosionRadius: 800
