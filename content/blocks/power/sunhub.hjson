@@ -13,11 +13,18 @@ consumes: {
 	liquid: {
 	  liquid: water
 	  amount: 0.6
+	 }
 }
 health: 700
 size: 4
 requirements: [
-  
+  lead/1200
+  graphite/800
+  metaglass/510
+  silicon/900
+  phase-fabric/780
+  pc-plate/670
+  plastanium-composite/800
   ]
 category: power
 
