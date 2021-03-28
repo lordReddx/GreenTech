@@ -1,5 +1,5 @@
 # GreenTech
-Green technologies are the future
+Makes you green
 
 What adds this mod?
 New planet with 5 campaign maps
