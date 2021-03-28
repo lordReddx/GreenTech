@@ -1,3 +1,4 @@
+//from Slava0135/reVision
 const part = 20
 const reload = 80;
 

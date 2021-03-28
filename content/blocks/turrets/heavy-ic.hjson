@@ -28,15 +28,16 @@ category: turret
 range: 560
 rotateSpeed: 3.2
 
-reloadTime: 300
+reloadTime: 180
 
 chargeEffect: lancerLaserChargeBegin
 hitEffect: hitLaserBlast
 shootSound: laserblast
 chargeSound: lasercharge
-inaccuracy: 4
+inaccuracy: 0
 cooldown: 300
-coolantUsage: 2.1
+coolantUsage: 1.3
+coolantMultiplier: 1.5
 shootShake: 2
 targetAir: true
 targetGround: true

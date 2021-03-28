@@ -2,9 +2,9 @@
 Green technologies are the future
 
 What adds this mod?
-New planet with 5 campaign maps
+New planet with 2 campaign maps. (later there will be 3 more)
 
-Two new turrets
+Two new turrets (one more in progress)
 
 One multifactory
 
@@ -14,4 +14,4 @@ How to import
 1) Open mod Browser
 2) Type in search GreenTech
 3) Import
-4) Profit
+4) Eat some cakes

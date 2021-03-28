@@ -17,7 +17,7 @@ Events.on(ClientLoadEvent, () => {
 
 
 const plains = new SectorPreset("sector1", mino, 1);
-plains.captureWave = 45;
+plains.captureWave = 46;
 plains.localizedName = "Plains";
 plains.difficulty = 8;
 plains.alwaysUnlocked = true;
@@ -27,7 +27,7 @@ oldRefinery.localizedName = "Old refinery";
 oldRefinery.difficulty = 8;
 oldRefinery.alwaysUnlocked = true;
 
-const frozenMountains = new SectorPreset("sector3", mino, 3);
+/*const frozenMountains = new SectorPreset("sector3", mino, 3);
 frozenMountains.localizedName = "Frozen mountains";
 frozenMountains.difficulty = 5;
 frozenMountains.alwaysUnlocked = true;
@@ -41,5 +41,5 @@ spaceshipWorkshop.alwaysUnlocked = true;
 const spaceAirport = new SectorPreset("sector5", mino, 5);
 spaceAirport.localizedName = "Space airport";
 spaceAirport.difficulty = 9;
-spaceAirport.alwaysUnlocked = true;
+spaceAirport.alwaysUnlocked = true;*/
 });

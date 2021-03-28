@@ -28,7 +28,7 @@ const multi = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafte
     this.draw=function(){
       let region1 = Core.atlas.find("gt-ht-foundry-top")
       Draw.rect(region1, this.x, this.y);
-      let region2 = Core.atlas.find("gt-ht-foundry-bottom")
+      let region2 = Core.atlas.find("gt-ht-foundry")
       Draw.rect(region2, this.x, this.y)
 };
 });
