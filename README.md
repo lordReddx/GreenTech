@@ -2,7 +2,7 @@
 Makes you green
 ![oops!](https://github.com/lordReddx/pics/blob/main/1616974379467.png)
 # What adds this mod?
-New planet with 2 campaign maps. (campaign cursed, sorry)
+New planet with 2 campaign maps. (campaign cursed, sorry. No, it's all right, though)
 ![oops!](https://github.com/lordReddx/pics/blob/main/planet.jpg)
 Two new turrets (one more in progress)
 ![oops!](https://github.com/lordReddx/pics/blob/main/turrets.jpg)
@@ -18,8 +18,6 @@ And something else...
 
 # What's next?
 Three more campaign maps
-
-Non cursed campaign 
 
 Turret
 
