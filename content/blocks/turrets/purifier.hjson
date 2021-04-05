@@ -6,7 +6,11 @@ details: Remember, fellow fighters, scrap metal is bad ammo for this turret.
 health: 1000
 size: 3
 requirements: [ 
-	
+	copper/180
+	lead/100
+	metaglass/80
+	titanium/80
+	silicon/100
 	] 
 category: turret
 
